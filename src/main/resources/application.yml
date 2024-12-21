@@ -1,0 +1,8 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
+server:
+  address: 0.0.0.0
+  port: 8080
